@@ -1,0 +1,63 @@
+
+Customer Segmentation Report
+
+Overview
+
+This report presents the results of customer segmentation for the eCommerce dataset. The segmentation identifies distinct customer groups based on spending habits, transaction behavior, and product preferences.
+
+Clustering Approach
+
+Algorithm: KMeans
+Optimal Number of Clusters: 4 (determined using the Davies-Bouldin Index)
+Evaluation Metric: Davies-Bouldin Index = 0.44 (lower is better, indicating well-separated clusters).
+
+Cluster Characteristics
+
+Cluster 0
+Average Total Spend: Moderate
+Average Transaction Value: Balanced
+Preferred Category: Home Decor
+Number of Customers: 44
+
+Cluster 1
+Average Total Spend: High
+Average Transaction Value: High
+Preferred Category: Books
+Number of Customers: 54
+
+Cluster 2
+Average Total Spend: Balanced
+Average Transaction Value: High
+Preferred Category: Electronics
+Number of Customers: 51
+
+Cluster 3
+Average Total Spend: Moderate
+Average Transaction Value: Moderate
+Preferred Category: Clothing
+Number of Customers: 50
+
+Insights and Recommendations
+
+High-Value Customers (Cluster 1):
+Customers in this cluster contribute significantly to revenue.
+Strategy: Focus marketing efforts on books and loyalty programs to retain these customers.
+
+Electronics Enthusiasts (Cluster 2):
+These customers prefer electronics and spend consistently high amounts.
+Strategy: Introduce bundled offers and discounts on electronics to maximize value.
+
+Home Decor Shoppers (Cluster 0):
+Moderate spenders with a focus on home decor.
+Strategy: Run seasonal campaigns or discounts to encourage higher spending.
+
+Clothing Customers (Cluster 3):
+Moderate spenders focused on clothing purchases.
+Strategy: Offer personalized clothing recommendations based on past transactions.
+
+Visualizations
+Cluster Scatter Plot: Visualizing customer clusters based on total spend and average transaction value.
+Preferred Categories by Cluster: Highlighting the dominant product category for each cluster.
+
+Conclusion
+This segmentation provides actionable insights for targeted marketing and resource allocation. By focusing on the distinct needs and behaviors of each cluster, the eCommerce platform can optimize customer engagement and revenue generation.
