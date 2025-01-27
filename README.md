@@ -37,3 +37,18 @@ Total Spend: Total revenue contributed by each customer.
 Average Transaction Value: Mean value of their transactions.
 Total Transactions: Count of transactions.
 Preferred Category: One-hot encoded product category for each customer.
+
+Task 3: Customer Segmentation
+
+Merge customer and transaction datasets.
+Perform feature engineering (e.g., average transaction value, frequency of purchase).
+Apply clustering algorithms (e.g., KMeans).
+Evaluate clusters using DB Index.
+Visualize clusters with relevant plots.
+![image](https://github.com/user-attachments/assets/87d1ae84-d963-494a-9bb4-e0566a0f8d20)
+
+Next, I’ll perform clustering on customer data to identify distinct segments. The steps include:
+
+Feature preparation for clustering (combine customer and transaction data).
+Applying a clustering algorithm (e.g., KMeans).
+Evaluating clusters with the DB Index and visualizing the results.
